@@ -1,7 +1,7 @@
 name: Upload PDF
 on:
   release:
-    type: [created]
+    types: [published]
  
 jobs:
   build:
